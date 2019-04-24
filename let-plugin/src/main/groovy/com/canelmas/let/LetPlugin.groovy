@@ -31,7 +31,6 @@ class LetPlugin implements Plugin<Project> {
         project.android.registerTransform(new LetTransform(project))
 
         project.dependencies {
-            implementation 'org.aspectj:aspectjrt:1.8.9'
             implementation 'com.canelmas.let:let-runtime:1.0.0-beta1'
             implementation 'com.canelmas.let:let-annotations:1.0.0-beta1'
         }
