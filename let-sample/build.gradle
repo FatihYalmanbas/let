@@ -29,7 +29,6 @@ apply plugin: 'let'
 
 android {
     compileSdkVersion versions.compileSdkVersion
-    buildToolsVersion versions.buildToolsVersion
 
     defaultConfig {
         applicationId "com.canelmas.let.sample"
